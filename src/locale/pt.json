@@ -9,8 +9,44 @@
 		"i18n": "Também disponível em:",
 		"description": "Comecei a estudar programação em 2017, quando eu tinha apenas 11 anos. Desde então venho criando alguns projetos para aprimorar minhas habilidades",
 		"technologies": "Tecnologias",
-		"projects": "Projetos & Contribuições",
-		"knedita": "Uma rede social open-source.",
-		"biome": "Contribuí na tradução em Português da documentação"
+		"projects_contributions": "Projetos & Contribuições",
+		"projects": {
+			"license": "Licença",
+			"stack": "Tecnologias",
+			"checkProject": "Confira esse projeto!",
+			"list": [
+				{
+					"name": "Project Knedita",
+					"description": "Uma rede social open-source.",
+					"license": "MIT",
+					"stack": [
+						"Typescript",
+						"Bun",
+						"NestJS",
+						"Prisma",
+						"Kysely",
+						"Postgres",
+						"Redis"
+					],
+					"icon": "knedita-light",
+					"link": "https://github.com/hknsh/project-knedita"
+				},
+				{
+					"name": "BiomeJS",
+					"description": "Contribuí na tradução em Português da documentação",
+					"license": "Apache 2.0 &  MIT",
+					"icon": "https://avatars.githubusercontent.com/u/140182603",
+					"link": "https://github.com/biomejs/biome"
+				},
+				{
+					"name": "hknsh's house",
+					"description": "Meu portfolio!",
+					"license": "MIT",
+					"stack": ["Preact", "Vite", "Bun", "shadcn/ui", "Typescript"],
+					"icon": "portfolio",
+					"link": "https://git.hknsh.com/hknsh/hknsh-house"
+				}
+			]
+		}
 	}
 }
