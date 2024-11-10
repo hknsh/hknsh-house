@@ -15,7 +15,6 @@ import './i18n';
 export function App() {
 	return (
 		<LocationProvider>
-			<Header />
 			<main>
 				<Router>
 					<Route path="/" component={Home} />

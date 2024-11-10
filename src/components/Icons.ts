@@ -16,6 +16,8 @@ import MongoDB from "../assets/tech/mongo.svg";
 import Postgres from "../assets/tech/postgres.svg";
 import Tailwind from "../assets/frameworks/tailwind.svg";
 import React from "../assets/frameworks/react.svg";
+import Knedita from "../assets/knedita-light.svg";
+import Portfolio from "../assets/portfolio.svg";
 
 export const Icons = {
 	languages: { Javascript, Typescript, Rust },
@@ -24,4 +26,5 @@ export const Icons = {
 	devops: { Docker, Linux, Git, Actions },
 	docs_tests: { Swagger, Jest },
 	db_orm: { Prisma, Postgres, MongoDB },
+	projects: { Knedita, Portfolio },
 };

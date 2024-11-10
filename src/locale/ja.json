@@ -9,8 +9,44 @@
 		"i18n": "他の言語でも利用できます:",
 		"description": "2017年、まだ11歳のときにプログラミングの勉強を始めました。それ以来、スキルを磨くためにいくつかのプロジェクトを作ってきました。",
 		"technologies": "技術",
-		"projects": "プロジェクトと貢献",
-		"knedita": "オープンソースのSNS。",
-		"biome": "ポルトガル語のドキュメント翻訳に貢献しました"
+		"projects_contributions": "プロジェクトと貢献",
+		"projects": {
+			"license": "ライセンス",
+			"stack": "スタック",
+			"checkProject": "このプロジェクトを見て",
+			"list": [
+				{
+					"name": "Project Knedita",
+					"description": "オープンソースのSNS",
+					"license": "MIT",
+					"stack": [
+						"Typescript",
+						"Bun",
+						"NestJS",
+						"Prisma",
+						"Kysely",
+						"Postgres",
+						"Redis"
+					],
+					"icon": "knedita-light",
+					"link": "https://github.com/hknsh/project-knedita"
+				},
+				{
+					"name": "BiomeJS",
+					"description": "ポルトガル語のドキュメント翻訳に貢献しました",
+					"license": "Apache 2.0 &  MIT",
+					"icon": "https://avatars.githubusercontent.com/u/140182603",
+					"link": "https://github.com/biomejs/biome"
+				},
+				{
+					"name": "hknsh's house",
+					"description": "私のポートフォリオ",
+					"license": "MIT",
+					"stack": ["Preact", "Vite", "Bun", "shadcn/ui", "Typescript"],
+					"icon": "portfolio",
+					"link": "https://git.hknsh.com/hknsh/hknsh-house"
+				}
+			]
+		}
 	}
 }

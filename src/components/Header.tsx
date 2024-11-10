@@ -11,9 +11,9 @@ export function Header() {
 
 	return (
 		<div className="flex-center">
-			<header className="h-18 fixed left-0 right-0 top-0 bg-neutral-950 p-8 text-xl">
+			<header className="h-18 fixed left-0 right-0 top-0 bg-neutral-950 p-8 text-xl z-10">
 				<div className="mx-auto p-4">
-					<nav className="flex-center space-x-5 md:space-x-12">
+					<nav className="flex-center space-x-4 md:space-x-12">
 						<button
 							type="button"
 							onClick={() => scroll("home")}
