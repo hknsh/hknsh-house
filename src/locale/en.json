@@ -1,0 +1,16 @@
+{
+	"translation": {
+		"header.home": "Home",
+		"header.projects": "Projects",
+		"header.social": "Social",
+		"header.git": "Git",
+		"hello": "Hello, I'm hknsh.",
+		"introduction": "I am a self-taught JavaScript programmer focused on back-end development, a Linux enthusiast, a big fan of indie and rhythm games, I read various mangas and I study other languages.",
+		"i18n": "Also available in:",
+		"description": "I started studying programming back in 2017 when I was 11 years old! Since then I've been creating a few projects to improve my skills.",
+		"technologies": "Technologies",
+		"projects": "Projects & Contributions",
+		"knedita": "An open-source social media.",
+		"biome": "Contributed to the Portuguese translation of the documentation"
+	}
+}
