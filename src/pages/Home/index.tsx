@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { Header } from "@/components/Header";
 import { ProjectGrid } from "@/components/ProjectGrid";
+import { Icons } from "@/components/Icons";
 
 export function Home() {
 	const {
