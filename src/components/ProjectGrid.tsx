@@ -48,7 +48,7 @@ export function ProjectGrid() {
 								{project.stack.map((item, k) => (
 									<li
 										key={k}
-										className="bg-neutral-700 text-neutral-100 px-2 py-1 rounded text-xs"
+										className="bg-neutral-800 text-color px-2 py-1 rounded text-xs"
 									>
 										{item}
 									</li>
@@ -61,7 +61,7 @@ export function ProjectGrid() {
 						href={project.link}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="block mt-auto text-center bg-indigo-600 text-neutral-100 px-4 py-2 rounded font-semibold hover:bg-indigo-700 transition"
+						className="block mt-auto text-center bg-[#1B7F65] text-emerald-50 px-4 py-2 rounded font-semibold hover:bg-[#2E7867] transition cursor-pointer"
 					>
 						{t("projects.checkProject")}
 					</a>

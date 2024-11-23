@@ -4,8 +4,8 @@ import { IconList } from "@/components/IconList";
 
 export function TechnologiesTab() {
 	return (
-		<Tabs defaultValue="languages" className="w-full bg-neutral-950">
-			<TabsList className="flex items-center justify-start flex-wrap h-auto space-y-1 overflow-x-auto bg-neutral-900 text-neutral-100">
+		<Tabs defaultValue="languages" className="w-full bg-dark text-color">
+			<TabsList className="flex items-center p-2 md:p-1 justify-start flex-wrap border border-neutral-800 h-auto overflow-x-auto bg-dark text-color">
 				<TabsTrigger value="languages">Languages</TabsTrigger>
 				<TabsTrigger value="backend-frameworks">Back-end</TabsTrigger>
 				<TabsTrigger value="frontend-frameworks">Front-end</TabsTrigger>

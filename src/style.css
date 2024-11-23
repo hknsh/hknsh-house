@@ -67,7 +67,7 @@
 
 @layer components {
 	.link {
-		@apply underline decoration-indigo-500 decoration-2 underline-offset-8 transition delay-100 ease-in-out hover:text-neutral-50 hover:decoration-indigo-600 text-lg md:text-xl;
+		@apply underline decoration-[#2E7867] decoration-2 underline-offset-8 transition delay-100 ease-in-out hover:text-neutral-50 hover:decoration-[#023D34] text-lg md:text-xl;
 	}
 	.flex-center {
 		@apply flex items-center justify-center;
@@ -76,12 +76,21 @@
 		@apply flex-center max-w-sm rounded-xl bg-neutral-800 p-3 text-sm transition ease-in hover:bg-neutral-900 md:p-4 md:text-base;
 	}
 	.neutral-btn-lg {
-		@apply flex-center w-48 rounded-xl bg-neutral-800 p-3 text-base transition ease-in hover:bg-neutral-900 md:p-4 md:text-base;
+		@apply flex-center w-48 rounded-xl bg-neutral-800 p-3 text-base transition ease-in hover:bg-neutral-900 md:p-4;
 	}
 	.text {
 		@apply text-base md:text-lg font-medium;
 	}
 	.title {
-		@apply text-xl md:text-4xl decoration-2 underline decoration-indigo-500 underline-offset-[12px]
+		@apply text-xl md:text-4xl decoration-2 underline decoration-[#2E7867] underline-offset-[12px]
+	}
+	.icon {
+		@apply w-8 h-8 md:w-14 md:h-14;
+	}
+	.bg-dark {
+		background-color: #121212;
+	}
+	.text-color {
+		color: #E0E0E0;
 	}
 }
